@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yellow Belt Exam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <div class="nav flex">
+            <div class="title flex">
+                <img src="images/leaf.png" alt="leaf" class="logo">
+                <h2>EasyBay</h2>
+                <input type="text" placeholder="Search for anything..." name="search">
+                <p class="signIn">Sign In</p>
+                <img src="images/cart-dark.png" alt="cart" class="cart" onclick="alert('Your cart is empty')">
+            </div>
+            <div class="navLinks flex">
+                <p>Aeonium</p>
+                <p>Andormischus</p>
+                <p>Agave</p>
+                <p>Aloe</p>
+                <p>Anacampseros</p>
+                <p>Aristaloe</p>
+                <p>More...</p>
+            </div>
+        </div>
+        <div class="main">
+            <h1>Your Source for Serious Succluent Specialties</h1>
+            <div class="featured_items flex">
+                <div class="discover flex">
+                    <p>Discover succulent varites on pot or rack at a time!</p>
+                    <div class="discover_box flex">
+                        <p>Discover</p>
+                        <img src="images/arrow-light.png" alt="arrow" class="arrow">
+                    </div>
+                </div>
+                <img src="images/succulents-1.jpg" alt="succulents1" class="succulents" id="succulents_img" onmouseover="hoverIn(this)" onmouseout="hoverOut(this)" >
+                <div class="soothingAloe flex">
+                    <img src="images/aloe-m.jpg" alt="aloeM" class="aloeM">
+                    <div class="smallArrow flex">
+                        <p>Soothing Aloe </p>
+                        <img src="images/arrow-light.png" alt="arrow" class="smallArrow_img" >
+                    </div>
+                </div>
+            </div>
+                <div class="images flex">
+                    <div>
+                        <img src="images/aeonium-s.jpg" alt="aeonium">
+                        <p>Aeonium</p>
+                    </div>
+                    <div>
+                        <img src="images/aloe-s.jpg" alt="aloeS">
+                        <p>Aloe</p>
+                    </div>
+                    <div>
+                        <img src="images/cactus-s.jpg" alt="cactus">
+                        <p>Cactus</p>
+                    </div>
+                    <div>
+                        <img src="images/echeveria-s.jpg" alt="echeveria">
+                        <p>Echeveria</p>
+                    </div>
+                    <div>
+                        <img src="images/sedum-s.jpg" alt="sedum">
+                        <p>Sedum</p></div>
+                    <div>
+                        <img src="images/sempervivum-s.jpg" alt="sempervivum">
+                        <p>Sempervivum</p>
+                    </div>
+            </div>    
+        </div>
+        <div id="cookie" class="flex">
+            <img src="images/alert-dark.png" alt="alert" class="alert">
+            <div id="link" class="flex">
+                <p>This site makes use of third party cookies, by clicking "I accept" you agree to the terms outlined in our 
+                <a href="#" class="cookieLink">cookie policy.</a></p>
+            </div>
+            <button class="cookieBtn" onclick="hide('cookie')"> I Accept </button>
+        </div>
+    </div>
+</body>
+</html>

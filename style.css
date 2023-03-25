@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+}
+#container{
+    width: 960px;
+    margin: 0px auto;
+}
+.nav{
+    display: flex;
+    height: 100px;
+    border-bottom: solid black 5px;
+    flex-direction: column;
+}
+.title{
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo, .cart{
+    height: 50px;
+}
+.logo{
+    background-color: rgb(101, 225, 208);
+    border-radius: 20%;
+}
+.title input{
+    height: 70%;
+    width: 70%;
+    text-align: left;
+    padding-left: 20px;
+    border-radius: 25px;
+}
+.flex-2{
+    flex: 2;
+}
+.flex-1{
+    flex: 1;
+}
+.flex{
+    display: flex;
+}
+.navLinks{
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+    font-size: 28pt;
+}
+.featured_items{
+    flex: 33%;
+    margin-bottom: 20px;
+    height: 35%;
+}
+.discover{
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(101, 225, 208);
+    align-items: center;
+    padding: 25px;
+}
+.discover p{
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+.arrow{
+    height: 50%;
+    padding-left: 10px;
+}
+.succulents{
+    width: 50%;
+    margin-right: 20px;
+}
+.soothingAloe{
+	flex-direction: column;
+	justify-content: space-between;
+}
+.aloeM{
+    margin-bottom: 10px;
+    height: 70%;
+}
+.smallArrow{
+    height: 25%;
+    background-color: rgb(101, 225, 208);
+    color: white;
+    font-size: medium;
+    align-items: center;
+    padding-left: 20px;
+}
+.smallArrow_img{
+    height: 33%;
+    padding-left: 5px;
+}
+.images{
+    background-color: rgb(185, 236, 255);
+    padding: 20px;
+    text-align: center;
+    justify-content: space-around;
+
+}
+.images img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    padding: 10px;
+}
+#cookie {
+    
+    border: 2px solid black;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 960px;
+    align-items: center;
+}
+#cookie p{
+    width: 90%;
+}
+.alert{
+    height: 50%;
+    padding: 20px;
+}
+#link{
+    align-items: center;
+}
+.cookieBtn {
+    height: 35px;
+    width: 100px;
+    background-color: rgb(101, 225, 208);
+    color: white;
+    border: 2px solid black;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+    margin-right: 20px;
+}
+
