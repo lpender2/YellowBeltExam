@@ -22,14 +22,14 @@ body {
     align-items: center;
 }
 .logo, .cart{
-    height: 50px;
+    height: 50%;
 }
 .logo{
     background-color: rgb(101, 225, 208);
     border-radius: 20%;
 }
 .title input{
-    height: 70%;
+    height: 50%;
     width: 70%;
     text-align: left;
     padding-left: 20px;
@@ -55,7 +55,7 @@ h1{
 .featured_items{
     flex: 33%;
     margin-bottom: 20px;
-    height: 35%;
+    height: 33%;
 }
 .discover{
     flex-direction: column;
@@ -99,39 +99,43 @@ h1{
 }
 .images{
     background-color: rgb(185, 236, 255);
-    padding: 20px;
     text-align: center;
+    padding: 20px;
     justify-content: space-around;
+    align-items: center;
 
 }
-.images img {
-    height: 100px;
+#img {
+    height: 50%;
     width: 100px;
     border-radius: 100%;
     padding: 10px;
 }
 #cookie {
-    
     border: 2px solid black;
     background-color: white;
     position: fixed;
     bottom: 0;
-    width: 960px;
+    max-width: 960px;
+    justify-content: space-between;
     align-items: center;
 }
 #cookie p{
-    width: 90%;
+    width: 80%;
+    background-color: green;
+    margin: auto;
 }
 .alert{
     height: 50%;
     padding: 20px;
+    background-color: grey;
 }
 #link{
     align-items: center;
 }
 .cookieBtn {
     height: 35px;
-    width: 100px;
+    width: 10%;
     background-color: rgb(101, 225, 208);
     color: white;
     border: 2px solid black;
